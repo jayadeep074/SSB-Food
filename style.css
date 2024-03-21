@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Madimi+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+.navbar{
+    background:none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.offcanvas-header img{
+    width: 30px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.offcanvas-body ul li{
+    list-style-type: none;
+
+}
+
+.offcanvas-body li a{
+    color: #000000;
+    font-size: 20px;
+}
+
+
+.home{
+    position: relative;
+    z-index: 0;
+}
+
+.about .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #000000;
+   
+}
+
+.about .row img, .Menu .row img{
+    width: 100%;
+}
+
+.Menu .row{
+    padding: 20px;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.Menu .row .col-sm{
+    text-align: center;
+    border: 2px solid;
+    padding: 0px;
+  
+}
+
+.Menu .row .star{
+    color: rgb(23, 63, 13);
+    font-size: 20px;
+}
+
+
+.Cook .row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.Cook .col{
+    padding-top: 25%;
+}
+
+.Cook .col-sm{
+    position: relative;
+    z-index: 0;
+}
+
+.Cook .right{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    z-index: 1;
+}
+
+.Cook .col-sm img{
+    box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14);
+}
+
+
+.footer{
+    background-color: #07b438;
+    color: #ffffff;
+}
+
+
